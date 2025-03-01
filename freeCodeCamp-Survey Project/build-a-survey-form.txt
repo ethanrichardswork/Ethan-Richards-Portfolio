@@ -1,0 +1,85 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>What's Your Favorite Way to Stream Music</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h1 id="title">What's Your Favorite Music App?</h1>
+    <p id="description">Please fill out all required fields</p>
+    <form id="survey-form">
+
+        <label for="name" id="name-label">Your Name:</label>
+        <input id="name" type="text" name="name" placeholder="Enter Your Name" required>
+
+        <label for="email" id="email-label">Your Email:</label>
+        <input id="email" type="email" name="email" placeholder="Enter Your Email" required>
+
+        <label for="number" id="number-label">Your Age:</label>
+        <input id="number" type="number" name="number" min="13" max="120" placeholder="Enter Your Age">
+
+        <label for="dropdown">Choose your favorite music service:</label>
+        <select id="dropdown" name="music-service" required>
+            <option value="">Select One</option>
+            <option value="1">Spotify</option>
+            <option value="2">Apple Music</option>
+            <option value="3">YouTube Music</option>
+            <option value="4">Tidal</option>
+        </select>
+
+        <label for="radio-choice-1">Select your preferred streaming service:</label>
+        <div>
+            <input type="radio" id="radio-choice-1" name="streaming-service" value="spotify">
+            <label for="radio-choice-1">Spotify</label>
+        </div>
+        <div>
+            <input type="radio" id="radio-choice-2" name="streaming-service" value="apple-music">
+            <label for="radio-choice-2">Apple Music</label>
+        </div>
+        <div>
+            <input type="radio" id="radio-choice-3" name="streaming-service" value="youtube-music">
+            <label 
+for="radio-choice-2">YouTube Music</label>
+        </div>
+        <div>
+            <input type="radio" id="radio-choice-4" name="streaming-service" value="tidal">
+            <label for="radio-choice-4">Tidal</label>
+        </div>
+      
+            <label for="check1">Do you use any of the following services? (Select all that apply):</label>
+        <div>
+            <input type="checkbox" id="check1" name="service-used" value="spotify">
+            <label for="check1">Spotify</label>
+        </div>
+        <div>
+            <input type="checkbox" id="check2" name="service-used" value="apple-music">
+            <label for="check2">Apple Music</label>
+        </div>
+        <div>
+            <input type="checkbox" id="check3" name="service-used" value="youtube-music">
+            <label for="check3">YouTube Music</label>
+        </div>
+        <div>
+            <input type="checkbox" id="check4" name="service-used" value="tidal">
+            <label for="check4">Tidal</label>
+        </div>
+        <div> 
+            <textarea> 
+            </textarea>
+      
+        <input id="submit" type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
